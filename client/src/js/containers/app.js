@@ -10,7 +10,8 @@ import Jumbotron from '../components/jumbotron'
 
 
  // selector
- // returns the props you need for the component.
+ // returns the props you need for the component
+ // so it can be injected by connect()
 function select(state) {
   return {
     items: state.items
